@@ -22,6 +22,7 @@
 		135117A61A257F2D0015C133 /* UIColor+ConvertColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 135117A21A257F2D0015C133 /* UIColor+ConvertColor.m */; };
 		135117A71A257F2D0015C133 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 135117A51A257F2D0015C133 /* UIView+Frame.m */; };
 		136153E61A3ACA3B001217F1 /* LShareTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 136153E51A3ACA3B001217F1 /* LShareTools.m */; };
+		1361EB2F1ABAC5C2009B05C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1361EB2E1ABAC5C2009B05C3 /* Foundation.framework */; };
 		1372EAAA1A7369B600D54F39 /* xiaoxi_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1372EAA91A7369B600D54F39 /* xiaoxi_icon@2x.png */; };
 		1372EAAF1A73805A00D54F39 /* new_menu-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1372EAAC1A73805A00D54F39 /* new_menu-2@2x.png */; };
 		1372EAB01A73805A00D54F39 /* new_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1372EAAD1A73805A00D54F39 /* new_menu@2x.png */; };
@@ -349,6 +350,7 @@
 		135117A51A257F2D0015C133 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		136153E41A3ACA3B001217F1 /* LShareTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LShareTools.h; sourceTree = SOURCE_ROOT; };
 		136153E51A3ACA3B001217F1 /* LShareTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LShareTools.m; sourceTree = SOURCE_ROOT; };
+		1361EB2E1ABAC5C2009B05C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1372EAA91A7369B600D54F39 /* xiaoxi_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xiaoxi_icon@2x.png"; sourceTree = "<group>"; };
 		1372EAAC1A73805A00D54F39 /* new_menu-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_menu-2@2x.png"; sourceTree = "<group>"; };
 		1372EAAD1A73805A00D54F39 /* new_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_menu@2x.png"; sourceTree = "<group>"; };
@@ -819,6 +821,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1361EB2F1ABAC5C2009B05C3 /* Foundation.framework in Frameworks */,
 				E333249F1AB6C8580064A6D7 /* AVFoundation.framework in Frameworks */,
 				E3B2DFAB1A8369EB0034098C /* libz.dylib in Frameworks */,
 				56508D871A5FB60100321B2F /* MapKit.framework in Frameworks */,
@@ -1238,6 +1241,7 @@
 		34D51D6C4A802172BEAD4711 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1361EB2E1ABAC5C2009B05C3 /* Foundation.framework */,
 				E333249E1AB6C8580064A6D7 /* AVFoundation.framework */,
 				E3B2DFAA1A8369EB0034098C /* libz.dylib */,
 				56508D861A5FB60100321B2F /* MapKit.framework */,

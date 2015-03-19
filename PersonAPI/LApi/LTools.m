@@ -491,8 +491,6 @@
         [[RecordDataClasses sharedManager] setActionStringWithAction:USER_ACTION_CHAT WithObject:userId WithValue:@""];
         //已登录成功自己服务器
         
-        userId = @"1";
-        
         ChatViewController *contact = [[ChatViewController alloc]init];
         contact.currentTarget = userId;
         contact.currentTargetName = userName;

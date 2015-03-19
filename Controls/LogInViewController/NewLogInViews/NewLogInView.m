@@ -866,11 +866,7 @@
         
         [LTools cache:result[@"token"] ForKey:RONGCLOUD_TOKEN];
         
-//        [self rongCloudDefaultLoginWithToken:result[@"token"]];
-        
-        //酷车
-        [self rongCloudDefaultLoginWithToken:@"s32sqxD+hCOTRSHH+remnT2HufI5VCopeHEPJ+ZRTMz72sVtP8G2DsgSwpE8QaqwwAEQ4eAwDFuLhMvLCv2Vng=="];
-
+        [self rongCloudDefaultLoginWithToken:result[@"token"]];
         
         
     } failBlock:^(NSDictionary *result, NSError *erro) {
