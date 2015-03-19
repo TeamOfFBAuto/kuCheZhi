@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.fblife.gaizhuangzhi</string>
+	<string>com.fblife.kuchezhi</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -37,7 +37,7 @@
 			<string>wx</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>wxf53513ba14a2e141</string>
+				<string>wxe53b5e7461334518</string>
 			</array>
 		</dict>
 	</array>

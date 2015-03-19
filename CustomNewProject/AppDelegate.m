@@ -36,17 +36,20 @@
 //#define WXAPPID @"wxf53513ba14a2e141"
 //#define SINAAPPID @"2128173805"
 
-//酷车志
-#define UMENG_APPKEY @"548a8a05fd98c5318d001273"
-#define WXAPPID @"wxf53513ba14a2e141" //暂时用改装志的,酷车志还在审核中
-#define SINAAPPID @"3110194953"
-
 /**
  *  融云mobile@fblife.com Fblife201314
  */
 
+
+//改装志 和 酷车志 用同一个key
 #define Rong_AppKey_Develope @"e0x9wycfxjyaq"
 #define Rong_AppSecret_Develope @"ePqoE3K7SuSgTH"
+
+//酷车志
+#define UMENG_APPKEY @"55092f23fd98c54774000331"
+#define WXAPPID @"wxe53b5e7461334518"
+#define SINAAPPID @"3110194953"
+
 
 //百度
 #define BAIDU_APPKEY @"APMdmYcmGzQGBs3MUzr086Fk"
