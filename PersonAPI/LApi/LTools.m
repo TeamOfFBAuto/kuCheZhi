@@ -1,7 +1,7 @@
 //
 //  LCWTools.m
 //  FBAuto
-//
+//sasa
 //  Created by lichaowei on 14-7-9.
 //  Copyright (c) 2014年 szk. All rights reserved.
 //
@@ -37,7 +37,6 @@
     const char * bytes = [text UTF8String];
     unsigned char md5Binary[16];
     CC_MD5(bytes, (CC_LONG)strlen(bytes), md5Binary);
-    
     NSString * md5String = [NSString
                             stringWithFormat:@"%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x",
                             md5Binary[0], md5Binary[1], md5Binary[2], md5Binary[3],
@@ -118,7 +117,9 @@
             NSArray *results = [dic objectForKey:@"results"];
             
             if (results.count == 0) {
+                
                 version(NO,@"no",@"没有更新");
+                
                 return ;
             }
             
