@@ -119,7 +119,7 @@
     
     [self.view addSubview:_myWebView];
     
-    NSString * fullUrl = [NSString stringWithFormat:@"http://g.fblife.com/web.php?c=wap&a=getStore&storeid=%@",_business_id];
+    NSString * fullUrl = [NSString stringWithFormat:@"http://cool.fblife.com/web.php?c=wap&a=getStore&storeid=%@",_business_id];
     [_myWebView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:fullUrl]]];
     _myWebView.backgroundColor = COLOR_WEB_DETAIL_BACKCOLOR;
     
@@ -537,7 +537,7 @@
     sectionView.backgroundColor = [UIColor whiteColor];
     
     banner_imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0,0,DEVICE_WIDTH,243)];
-    [banner_imageView sd_setImageWithURL:[NSURL URLWithString:@"http://g.fblife.com/resource/userhead/45/c4/9_1_0.jpg"] placeholderImage:nil];
+    [banner_imageView sd_setImageWithURL:[NSURL URLWithString:@"http://cool.fblife.com/resource/userhead/45/c4/9_1_0.jpg"] placeholderImage:nil];
     banner_imageView.backgroundColor = [UIColor grayColor];
     [sectionView addSubview:banner_imageView];
     

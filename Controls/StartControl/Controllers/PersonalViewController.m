@@ -429,8 +429,10 @@ typedef enum{
     _faceImv.backgroundColor = [UIColor clearColor];
     _faceImv.layer.masksToBounds = YES;
 
+    
+    //暂时注释掉
     UITapGestureRecognizer *ccc = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(userFaceClicked)];
-    [_faceImv addGestureRecognizer:ccc];
+//    [_faceImv addGestureRecognizer:ccc];
     _faceImv.userInteractionEnabled = YES;
     [face_quan_view addSubview:_faceImv];
     

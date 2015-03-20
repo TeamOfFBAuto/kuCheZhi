@@ -217,7 +217,7 @@
     }
     
     //上传图片url
-    NSString *url = @"http://g.fblife.com/index.php?c=interface&a=uploadPhoto&fbtype=json";
+    NSString *url = @"http://cool.fblife.com/index.php?c=interface&a=uploadPhoto&fbtype=json";
     NSLog(@"上传图片接口:%@",url);
     //设置接收响应类型为标准HTTP类型(默认为响应类型为JSON)
     AFHTTPRequestOperationManager * manager = [AFHTTPRequestOperationManager manager];
@@ -300,7 +300,7 @@
 //上传录音
 -(void)uploadVoice{
     //上传录音url
-    NSString *url = @"http://g.fblife.com/index.php?c=interface&a=uploadvoice&fbtype=json";
+    NSString *url = @"http://cool.fblife.com/index.php?c=interface&a=uploadvoice&fbtype=json";
     
     int vvv = _dataArray.count;
     for (int i = 0;i<vvv;i++) {
@@ -398,7 +398,7 @@
 -(void)uploadCommoncase{
     
     //上传描述url
-    NSString *str = @"http://g.fblife.com/index.php?c=interface&a=addcommoncase&fbtype=json";
+    NSString *str = @"http://cool.fblife.com/index.php?c=interface&a=addcommoncase&fbtype=json";
     //参数
     NSString *title = _anli_title.text;//标题
     NSString *img_id = @"";//图片字符串
@@ -487,7 +487,7 @@
 //备用上传方式
 -(void)uploadCommoncase1{
     //上传描述url
-    NSString *str = @"http://g.fblife.com/index.php?c=interface&a=addcommoncase&fbtype=json";
+    NSString *str = @"http://cool.fblife.com/index.php?c=interface&a=addcommoncase&fbtype=json";
     //参数
     NSString *title = _anli_title.text;//标题
     NSString *img_id = @"";//图片字符串
